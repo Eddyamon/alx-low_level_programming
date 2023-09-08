@@ -4,18 +4,19 @@
 /**
  * main - Prints the alphabet without q and e.
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-/** Print lowercase alphabet excluding 'q' and 'e'*/
-	for (char c = 'a'; c <= 'z'; c++)
-{
-	if (c != 'q' && c != 'e')
-	putchar(c);
-}
+	int i;
 
-/** Print a newline */
+	for (i = 97; i < 123; i++)
+{
+	if (i != 101 && i != 113)
+{
+	putchar(i);
+}
+}
 	putchar('\n');
 	return (0);
 }
