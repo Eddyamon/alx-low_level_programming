@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
-*main - this is the main function
+*main - Entry point
 *
 *Return : always 0
 */
 
 int main(void)
 {
-	Char a;
-	Int b;
+	char a;
+	int b;
 
-	Long int c;
-	Long long int d;
-	Float d;
+	long int c;
+	long long int d;
+	float d;
 
 	printf("Size of a char: %lu byte(s)\n", sizeof(a));
 	printf("Size of an int: %lu byte(s)\n", sizeof(b));
